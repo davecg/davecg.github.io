@@ -1,2 +1,0 @@
-# davecg.github.io
-Blog
