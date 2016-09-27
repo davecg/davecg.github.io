@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Cogito Ergo Blog</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2016-09-27T00:00:00-04:00</updated><entry><title>Test Post</title><link href="/Blah.html" rel="alternate"></link><published>2016-09-27T00:00:00-04:00</published><updated>2016-09-27T00:00:00-04:00</updated><author><name>Dave</name></author><id>tag:,2016-09-27:Blah.html</id><summary type="html">&lt;style type="text/css"&gt;/*!
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Cogito Ergo Blog</title><link href="/" rel="alternate"></link><link href="/feeds/jupyter.atom.xml" rel="self"></link><id>/</id><updated>2016-09-27T00:00:00-04:00</updated><entry><title>Test Post</title><link href="/Blah.html" rel="alternate"></link><published>2016-09-27T00:00:00-04:00</published><updated>2016-09-27T00:00:00-04:00</updated><author><name>Dave</name></author><id>tag:,2016-09-27:Blah.html</id><summary type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
@@ -1535,10 +1535,4 @@ gg==
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-</summary><category term="data"></category><category term="mta"></category></entry><entry><title>First Post</title><link href="/first-post.html" rel="alternate"></link><published>2016-09-27T00:00:00-04:00</published><updated>2016-09-27T00:00:00-04:00</updated><author><name>Dave</name></author><id>tag:,2016-09-27:first-post.html</id><summary type="html">&lt;h1&gt;Introduction&lt;/h1&gt;
-&lt;p&gt;This is just my first post to make sure that 
-&lt;a href="http://docs.getpelican.com/en/3.6.3/"&gt;Pelican&lt;/a&gt; 
-is working well with GitHub.&lt;/p&gt;
-&lt;p&gt;I generally hate blogging or any form of social
-media activity, so this may be limited to name,
-rank and serial number.  &lt;/p&gt;</summary></entry></feed>
+</summary><category term="data"></category><category term="mta"></category></entry></feed>
