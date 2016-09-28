@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Cogito Ergo Blog</title><link href="/" rel="alternate"></link><link href="/feeds/jupyter.atom.xml" rel="self"></link><id>/</id><updated>2016-09-27T00:00:00-04:00</updated><entry><title>Test Post</title><link href="/Blah.html" rel="alternate"></link><published>2016-09-27T00:00:00-04:00</published><updated>2016-09-27T00:00:00-04:00</updated><author><name>Dave</name></author><id>tag:,2016-09-27:Blah.html</id><summary type="html">&lt;style type="text/css"&gt;/*!
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Cogito Ergo Blog</title><link href="/" rel="alternate"></link><link href="/feeds/jupyter.atom.xml" rel="self"></link><id>/</id><updated>2016-09-27T00:00:00-04:00</updated><entry><title>First Project</title><link href="/mta_turnstile.html" rel="alternate"></link><published>2016-09-27T00:00:00-04:00</published><updated>2016-09-27T00:00:00-04:00</updated><author><name>Dave</name></author><id>tag:,2016-09-27:mta_turnstile.html</id><summary type="html">&lt;style type="text/css"&gt;/*!
 *
 * IPython notebook
 *
