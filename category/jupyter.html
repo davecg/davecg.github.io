@@ -10,14 +10,12 @@
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary">
 
-<meta property="og:title" content="All Tags · Cogito Ergo Blog"/>
-<meta name="twitter:title" content="All Tags · Cogito Ergo Blog">
-<meta property="og:url" content="/tags.html" />
-<meta property="og:description" content="All tags used in the Cogito Ergo Blog blog" />
-<meta name="twitter:description" content="All tags used in the Cogito Ergo Blog blog">
+<meta property="og:title" content="Cogito Ergo Blog"/>
+<meta name="twitter:title" content="Cogito Ergo Blog">
+<meta property="og:url" content="" />
 <meta property="og:site_name" content="Cogito Ergo Blog" />
 <meta property="og:article:author" content="Dave" />
-        <title>All Tags · Cogito Ergo Blog
+        <title>Cogito Ergo Blog
 </title>
         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
@@ -26,7 +24,6 @@
         <link rel="stylesheet" type="text/css" href="/theme/css/elegant.css" media="screen">
         <link rel="stylesheet" type="text/css" href="/theme/css/custom.css" media="screen">
         <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Cogito Ergo Blog - Full Atom Feed" />
-
     </head>
     <body>
         <div id="content-sans-footer">
@@ -43,7 +40,7 @@
                         <ul class="nav pull-right top-menu">
                             <li ><a href="">Home</a></li>
                             <li ><a href="/categories.html">Categories</a></li>
-                            <li  class="active"><a href="/tags.html">Tags</a></li>
+                            <li ><a href="/tags.html">Tags</a></li>
                             <li ><a href="/archives.html">Archives</a></li>
                             <li><form class="navbar-search" action="/search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
                         </ul>
@@ -55,43 +52,32 @@
             <div class="row-fluid">
                 <div class="span1"></div>
                 <div class="span10">
-
 <div class="row-fluid">
-    <header class="page-header span10 offset2">
-    <h1><a href="/tags.html">All Tags</a></h1>
-    </header>
-</div>
-<div class="row-fluid">
-    <div class="span8 offset2">
-        <form class="form-search">
-            <input type="text" class="input-medium search-query filterinput" placeholder="Find a tag">
-        </form>
-        <ul class="list-of-tags">
-            <li>
-            <a href="#data-ref">data<span>1</span></a>
-            </li>
-            <li>
-            <a href="#mta-ref">mta<span>1</span></a>
-            </li>
-        </ul>
-    </div>
-</div>
 
-<div class="row-fluid">
-    <div class="span8 offset2">
-        <h2 id="data-ref" class="tag-title">data</h2>
-        <ul class="articles-in-tag list-articles-category">
-            <li><time pubdate="pubdate" datetime="2016-09-27T00:00:00-04:00">Tue 27 September 2016</time><a href="/Blah.html">Test Post  </a></li>
-        </ul>
-
-        <h2 id="mta-ref" class="tag-title">mta</h2>
-        <ul class="articles-in-tag list-articles-category">
-            <li><time pubdate="pubdate" datetime="2016-09-27T00:00:00-04:00">Tue 27 September 2016</time><a href="/Blah.html">Test Post  </a></li>
-        </ul>
+    <div class="row-fluid">
 
     </div>
-</div>
 
+    <div class="row-fluid">
+        <div class="span8 offset2">
+            <header>
+            <h1 id="recent-posts">Recent Posts <a id="allposts" href="/archives.html">all posts</a></h1>
+            </header>
+        <div class="recent-posts">
+            <article>
+                <a href="/Blah.html">Test Post  </a>
+                <section>
+                    posted in
+                <a href="/categories.html#jupyter-ref">jupyter</a>
+                <div class="recent-posts-time">
+                <time pubdate="pubdate" datetime="2016-09-27T00:00:00-04:00">Tue 27 September 2016</time>
+                </div>
+                </section>
+            </article>
+        </div>
+        </div>
+    </div>
+</div>
                 </div>
                 <div class="span1"></div>
             </div>
@@ -112,45 +98,6 @@
                 return (query.length > 0);
             }
         </script>
-
-
-<script>
-    (function ($) {
-        // custom css expression for a case-insensitive contains()
-        jQuery.expr[':'].Contains = function(a,i,m){
-            return (a.textContent || a.innerText || "").toUpperCase().indexOf(m[3].toUpperCase())>=0;
-        };
-
-        function listFilter() {
-
-            $('.filterinput')
-            .change( function () {
-                var filter = $(this).val();
-                if(filter) {
-                    // this finds all links in a list that contain the input,
-                    // and hide the ones not containing the input while showing the ones that do
-                    $('.list-of-tags').find("a:not(:Contains(" + filter + "))").parent().hide();
-                    $('.list-of-tags').find("a:Contains(" + filter + ")").parent().show();
-                    } else {
-                    $('.list-of-tags').find("li").show();
-                }
-                return false;
-            })
-            .keyup( function () {
-                // fire the above change event after every letter
-                $(this).change();
-            });
-        }
-
-        //ondomready
-        $(function () {
-            listFilter($());
-        });
-    }(jQuery));
-
-</script>
-
-
     </body>
     <!-- Theme: Elegant built for Pelican
     License : http://oncrashreboot.com/pelican-elegant -->

@@ -1,10 +1,80 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Cogito Ergo Blog</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2016-09-27T00:00:00-04:00</updated><entry><title>Test Post</title><link href="/Blah.html" rel="alternate"></link><published>2016-09-27T00:00:00-04:00</published><updated>2016-09-27T00:00:00-04:00</updated><author><name>Dave</name></author><id>tag:,2016-09-27:Blah.html</id><summary type="html">&lt;style type="text/css"&gt;/*!
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Dave" />
+        <meta name="copyright" content="Dave" />
+
+        <meta property="og:type" content="article" />
+        <meta name="twitter:card" content="summary">
+
+<meta name="keywords" content="data, mta, jupyter, " />
+
+<meta property="og:title" content="Test Post "/>
+<meta property="og:url" content="/Blah.html" />
+<meta property="og:description" content="Project Benson¶Introduction¶This is my first blog post and my first project for the 2016 Fall Cohort of Metis Data Science bootcamp. Our assignment was to parse MTA turnstile data to determine which stations are busiest and whatever further information we could discover from the data. MTA Turnstile Data File Formats¶" />
+<meta property="og:site_name" content="Cogito Ergo Blog" />
+<meta property="og:article:author" content="Dave" />
+<meta property="og:article:published_time" content="2016-09-27T00:00:00-04:00" />
+<meta name="twitter:title" content="Test Post ">
+<meta name="twitter:description" content="Project Benson¶Introduction¶This is my first blog post and my first project for the 2016 Fall Cohort of Metis Data Science bootcamp. Our assignment was to parse MTA turnstile data to determine which stations are busiest and whatever further information we could discover from the data. MTA Turnstile Data File Formats¶">
+
+        <title>Test Post  · Cogito Ergo Blog
+</title>
+        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="/theme/css/pygments.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="/theme/tipuesearch/tipuesearch.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="/theme/css/elegant.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="/theme/css/custom.css" media="screen">
+        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Cogito Ergo Blog - Full Atom Feed" />
+    </head>
+    <body>
+        <div id="content-sans-footer">
+        <div class="navbar navbar-static-top">
+            <div class="navbar-inner">
+                <div class="container-fluid">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="/"><span class=site-name>Cogito Ergo Blog</span></a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav pull-right top-menu">
+                            <li ><a href="">Home</a></li>
+                            <li ><a href="/categories.html">Categories</a></li>
+                            <li ><a href="/tags.html">Tags</a></li>
+                            <li ><a href="/archives.html">Archives</a></li>
+                            <li><form class="navbar-search" action="/search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span1"></div>
+                <div class="span10">
+<article>
+<div class="row-fluid">
+    <header class="page-header span10 offset2">
+    <h1><a href="/Blah.html"> Test Post  </a></h1>
+    </header>
+</div>
+
+<div class="row-fluid">
+        <div class="span8 offset2 article-content">
+
+            
+            <style type="text/css">/*!
 *
 * IPython notebook
 *
-*/.ansibold{font-weight:700}.ansiblack{}.ansired{color:#8b0000}.ansigreen{6400}.ansiyellow{color:#c4a000}.ansiblue{8b}.ansipurple{color:#9400d3}.ansicyan{color:#4682b4}.ansigray{color:gray}.ansibgblack{background-}.ansibgred{background-color:red}.ansibggreen{background-color:green}.ansibgyellow{background-color:#ff0}.ansibgblue{background-f}.ansibgpurple{background-color:#ff00ff}.ansibgcyan{background-ff}.ansibggray{background-color:gray}div.cell{border:1px solid transparent;display:-webkit-box;-webkit-box-orient:vertical;display:-moz-box;-moz-box-orient:vertical;display:box;box-orient:vertical;box-align:stretch;display:flex;flex-direction:column;align-items:stretch;border-radius:2px;box-sizing:border-box;-moz-box-sizing:border-box;border-width:thin;border-style:solid;width:100%;padding:5px;margin:0;outline:0}div.cell.selected{border-color:#ababab}@media print{div.cell.selected{border-color:transparent}}.edit_mode div.cell.selected{border-color:green}.prompt{min-width:14ex;padding:.4em;margin:0;font-family:monospace;text-align:right;line-height:1.21429em}div.inner_cell{display:-webkit-box;-webkit-box-orient:vertical;display:-moz-box;-moz-box-orient:vertical;display:box;box-orient:vertical;box-align:stretch;display:flex;flex-direction:column;align-items:stretch;-webkit-box-flex:1;-moz-box-flex:1;box-flex:1;flex:1}@-moz-document url-prefix(){div.inner_cell{overflow-x:hidden}}div.input_area{border:1px solid #cfcfcf;border-radius:2px;background:#f7f7f7;line-height:1.21429em}div.prompt:empty{padding-top:0;padding-bottom:0}div.unrecognized_cell{padding:5px 5px 5px 0;display:-webkit-box;-webkit-box-orient:horizontal;display:-moz-box;-moz-box-orient:horizontal;display:box;box-orient:horizontal;box-align:stretch;display:flex;flex-direction:row;align-items:stretch}div.unrecognized_cell .inner_cell{border-radius:2px;padding:5px;font-weight:700;color:red;border:1px solid #cfcfcf;background:#eaeaea}div.unrecognized_cell .inner_cell a,div.unrecognized_cell .inner_cell a:hover{color:inherit;text-decoration:none}@media (max-width:540px){.prompt{text-align:left}div.unrecognized_cell&gt;div.prompt{display:none}}div.code_cell{}div.input{page-break-inside:avoid;display:-webkit-box;-webkit-box-orient:horizontal;display:-moz-box;-moz-box-orient:horizontal;display:box;box-orient:horizontal;box-align:stretch;display:flex;flex-direction:row;align-items:stretch}@media (max-width:540px){div.input{-webkit-box-orient:vertical;-moz-box-orient:vertical;box-orient:vertical;box-align:stretch;display:flex;flex-direction:column;align-items:stretch}}div.input_prompt{color:navy;border-top:1px solid transparent}div.input_area&gt;div.highlight{margin:.4em;border:none;padding:0;background-color:transparent}div.input_area&gt;div.highlight&gt;pre{margin:0;border:none;padding:0;background-color:transparent}.CodeMirror{line-height:1.21429em;font-size:14px;height:auto;background:0 0}.CodeMirror-scroll{overflow-y:hidden;overflow-x:auto}.CodeMirror-lines{padding:.4em}.CodeMirror-linenumber{padding:0 8px 0 4px}.CodeMirror-gutters{border-bottom-left-radius:2px;border-top-left-radius:2px}.CodeMirror pre{padding:0;border:0;border-radius:0}.highlight-base,.highlight-variable{}.highlight-variable-2{color:#1a1a1a}.highlight-variable-3{color:#333}.highlight-string{color:#BA2121}.highlight-comment{color:#408080;font-style:italic}.highlight-number{80}.highlight-atom{color:#88F}.highlight-keyword{color:green;font-weight:700}.highlight-builtin{color:green}.highlight-error{color:red}.highlight-operator{color:#A2F;font-weight:700}.highlight-meta{color:#A2F}.highlight-def{f}.highlight-string-2{color:#f50}.highlight-qualifier{color:#555}.highlight-bracket{color:#997}.highlight-tag{color:#170}.highlight-attribute{c}.highlight-header{f}.highlight-quote{90}.highlight-link{c}.cm-s-ipython span.cm-keyword{color:green;font-weight:700}.cm-s-ipython span.cm-atom{color:#88F}.cm-s-ipython span.cm-number{80}.cm-s-ipython span.cm-def{f}.cm-s-ipython span.cm-variable{}.cm-s-ipython span.cm-operator{color:#A2F;font-weight:700}.cm-s-ipython span.cm-variable-2{color:#1a1a1a}.cm-s-ipython span.cm-variable-3{color:#333}.cm-s-ipython span.cm-comment{color:#408080;font-style:italic}.cm-s-ipython span.cm-string{color:#BA2121}.cm-s-ipython span.cm-string-2{color:#f50}.cm-s-ipython span.cm-meta{color:#A2F}.cm-s-ipython span.cm-qualifier{color:#555}.cm-s-ipython span.cm-builtin{color:green}.cm-s-ipython span.cm-bracket{color:#997}.cm-s-ipython span.cm-tag{color:#170}.cm-s-ipython span.cm-attribute{c}.cm-s-ipython span.cm-header{f}.cm-s-ipython span.cm-quote{90}.cm-s-ipython span.cm-link{c}.cm-s-ipython span.cm-error{color:red}.cm-s-ipython span.cm-tab{background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAMCAYAAAAkuj5RAAAAAXNSR0IArs4c6QAAAGFJREFUSMft1LsRQFAQheHPowAKoACx3IgEKtaEHujDjORSgWTH/ZOdnZOcM/sgk/kFFWY0qV8foQwS4MKBCS3qR6ixBJvElOobYAtivseIE120FaowJPN75GMu8j/LfMwNjh4HUpwg4LUAAAAASUVORK5CYII=')right no-repeat}div.output_wrapper{display:-webkit-box;-webkit-box-align:stretch;display:-moz-box;-moz-box-align:stretch;display:box;box-orient:vertical;box-align:stretch;display:flex;flex-direction:column;align-items:stretch;z-index:1}div.output_scroll{height:24em;width:100%;overflow:auto;border-radius:2px;-webkit-box-shadow:inset 0 2px 8px rgba(0,0,0,.8);box-shadow:inset 0 2px 8px rgba(0,0,0,.8);display:block}div.output_collapsed{margin:0;padding:0;display:-webkit-box;-webkit-box-orient:vertical;display:-moz-box;-moz-box-orient:vertical;display:box;box-orient:vertical;box-align:stretch;display:flex;flex-direction:column;align-items:stretch}div.out_prompt_overlay{height:100%;padding:0 .4em;position:absolute;border-radius:2px}div.out_prompt_overlay:hover{-webkit-box-shadow:inset 0 0 1px #000;box-shadow:inset 0 0 1px #000;background:rgba(240,240,240,.5)}div.output_prompt{color:#8b0000}div.output_area{padding:0;page-break-inside:avoid;display:-webkit-box;-webkit-box-orient:horizontal;display:-moz-box;-moz-box-orient:horizontal;display:box;box-orient:horizontal;box-align:stretch;display:flex;flex-direction:row;align-items:stretch}div.output_area .MathJax_Display{text-align:left!important}div.output_area div.output_area img,div.output_area svg{max-width:100%;height:auto}div.output_area img.unconfined,div.output_area svg.unconfined{max-width:none}.output{display:-webkit-box;-webkit-box-orient:vertical;display:-moz-box;-moz-box-orient:vertical;display:box;box-orient:vertical;box-align:stretch;display:flex;flex-direction:column;align-items:stretch}@media (max-width:540px){div.output_area{-webkit-box-orient:vertical;-moz-box-orient:vertical;box-orient:vertical;box-align:stretch;display:flex;flex-direction:column;align-items:stretch}}div.output_area pre{margin:0;padding:0;border:0;vertical-align:baseline;background-color:transparent;border-radius:0}div.output_subarea{overflow-x:auto;padding:.4em;-webkit-box-flex:1;-moz-box-flex:1;box-flex:1;flex:1;max-width:calc(100% - 14ex)}div.output_text{text-align:left;line-height:1.21429em}div.output_stderr{background:#fdd}div.output_latex{text-align:left}div.output_javascript:empty{padding:0}.js-error{color:#8b0000}div.raw_input_container{font-family:monospace;padding-top:5px}span.raw_input_prompt{}input.raw_input{font-family:inherit;font-size:inherit;color:inherit;width:auto;vertical-align:baseline;padding:0 .25em;margin:0 .25em}input.raw_input:focus{box-shadow:none}p.p-space{margin-bottom:10px}div.output_unrecognized{padding:5px;font-weight:700;color:red}div.output_unrecognized a,div.output_unrecognized a:hover{color:inherit;text-decoration:none}.rendered_html{}.rendered_html :link,.rendered_html :visited,.rendered_html h1:first-child{margin-top:.538em}.rendered_html h2:first-child{margin-top:.636em}.rendered_html h3:first-child{margin-top:.777em}.rendered_html h4:first-child,.rendered_html h5:first-child,.rendered_html h6:first-child{margin-top:1em}.rendered_html *+ol,.rendered_html *+ul{margin-top:1em}.rendered_html *+table{margin-top:1em}.rendered_html *+p{margin-top:1em}.rendered_html *+img{margin-top:1em}div.text_cell{display:-webkit-box;-webkit-box-orient:horizontal;display:-moz-box;-moz-box-orient:horizontal;display:box;box-orient:horizontal;box-align:stretch;display:flex;flex-direction:row;align-items:stretch}@media (max-width:540px){div.text_cell&gt;div.prompt{display:none}}div.text_cell_render{outline:0;resize:none;width:inherit;border-style:none;padding:.5em .5em .5em .4em;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box}a.anchor-link:link{text-decoration:none;padding:0 20px;visibility:hidden}h1:hover .anchor-link,h2:hover .anchor-link,h3:hover .anchor-link,h4:hover .anchor-link,h5:hover .anchor-link,h6:hover .anchor-link{visibility:visible}.text_cell.rendered .input_area{display:none}.text_cell.rendered .text_cell.unrendered .text_cell_render{display:none}.cm-header-1,.cm-header-2,.cm-header-3,.cm-header-4,.cm-header-5,.cm-header-6{font-weight:700;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}.cm-header-1{font-size:185.7%}.cm-header-2{font-size:157.1%}.cm-header-3{font-size:128.6%}.cm-header-4{font-size:110%}.cm-header-5,.cm-header-6{font-size:100%;font-style:italic}&lt;/style&gt;
-&lt;style type="text/css"&gt;.highlight .hll { background-color: #ffffcc }
+*/.ansibold{font-weight:700}.ansiblack{}.ansired{color:#8b0000}.ansigreen{6400}.ansiyellow{color:#c4a000}.ansiblue{8b}.ansipurple{color:#9400d3}.ansicyan{color:#4682b4}.ansigray{color:gray}.ansibgblack{background-}.ansibgred{background-color:red}.ansibggreen{background-color:green}.ansibgyellow{background-color:#ff0}.ansibgblue{background-f}.ansibgpurple{background-color:#ff00ff}.ansibgcyan{background-ff}.ansibggray{background-color:gray}div.cell{border:1px solid transparent;display:-webkit-box;-webkit-box-orient:vertical;display:-moz-box;-moz-box-orient:vertical;display:box;box-orient:vertical;box-align:stretch;display:flex;flex-direction:column;align-items:stretch;border-radius:2px;box-sizing:border-box;-moz-box-sizing:border-box;border-width:thin;border-style:solid;width:100%;padding:5px;margin:0;outline:0}div.cell.selected{border-color:#ababab}@media print{div.cell.selected{border-color:transparent}}.edit_mode div.cell.selected{border-color:green}.prompt{min-width:14ex;padding:.4em;margin:0;font-family:monospace;text-align:right;line-height:1.21429em}div.inner_cell{display:-webkit-box;-webkit-box-orient:vertical;display:-moz-box;-moz-box-orient:vertical;display:box;box-orient:vertical;box-align:stretch;display:flex;flex-direction:column;align-items:stretch;-webkit-box-flex:1;-moz-box-flex:1;box-flex:1;flex:1}@-moz-document url-prefix(){div.inner_cell{overflow-x:hidden}}div.input_area{border:1px solid #cfcfcf;border-radius:2px;background:#f7f7f7;line-height:1.21429em}div.prompt:empty{padding-top:0;padding-bottom:0}div.unrecognized_cell{padding:5px 5px 5px 0;display:-webkit-box;-webkit-box-orient:horizontal;display:-moz-box;-moz-box-orient:horizontal;display:box;box-orient:horizontal;box-align:stretch;display:flex;flex-direction:row;align-items:stretch}div.unrecognized_cell .inner_cell{border-radius:2px;padding:5px;font-weight:700;color:red;border:1px solid #cfcfcf;background:#eaeaea}div.unrecognized_cell .inner_cell a,div.unrecognized_cell .inner_cell a:hover{color:inherit;text-decoration:none}@media (max-width:540px){.prompt{text-align:left}div.unrecognized_cell>div.prompt{display:none}}div.code_cell{}div.input{page-break-inside:avoid;display:-webkit-box;-webkit-box-orient:horizontal;display:-moz-box;-moz-box-orient:horizontal;display:box;box-orient:horizontal;box-align:stretch;display:flex;flex-direction:row;align-items:stretch}@media (max-width:540px){div.input{-webkit-box-orient:vertical;-moz-box-orient:vertical;box-orient:vertical;box-align:stretch;display:flex;flex-direction:column;align-items:stretch}}div.input_prompt{color:navy;border-top:1px solid transparent}div.input_area>div.highlight{margin:.4em;border:none;padding:0;background-color:transparent}div.input_area>div.highlight>pre{margin:0;border:none;padding:0;background-color:transparent}.CodeMirror{line-height:1.21429em;font-size:14px;height:auto;background:0 0}.CodeMirror-scroll{overflow-y:hidden;overflow-x:auto}.CodeMirror-lines{padding:.4em}.CodeMirror-linenumber{padding:0 8px 0 4px}.CodeMirror-gutters{border-bottom-left-radius:2px;border-top-left-radius:2px}.CodeMirror pre{padding:0;border:0;border-radius:0}.highlight-base,.highlight-variable{}.highlight-variable-2{color:#1a1a1a}.highlight-variable-3{color:#333}.highlight-string{color:#BA2121}.highlight-comment{color:#408080;font-style:italic}.highlight-number{80}.highlight-atom{color:#88F}.highlight-keyword{color:green;font-weight:700}.highlight-builtin{color:green}.highlight-error{color:red}.highlight-operator{color:#A2F;font-weight:700}.highlight-meta{color:#A2F}.highlight-def{f}.highlight-string-2{color:#f50}.highlight-qualifier{color:#555}.highlight-bracket{color:#997}.highlight-tag{color:#170}.highlight-attribute{c}.highlight-header{f}.highlight-quote{90}.highlight-link{c}.cm-s-ipython span.cm-keyword{color:green;font-weight:700}.cm-s-ipython span.cm-atom{color:#88F}.cm-s-ipython span.cm-number{80}.cm-s-ipython span.cm-def{f}.cm-s-ipython span.cm-variable{}.cm-s-ipython span.cm-operator{color:#A2F;font-weight:700}.cm-s-ipython span.cm-variable-2{color:#1a1a1a}.cm-s-ipython span.cm-variable-3{color:#333}.cm-s-ipython span.cm-comment{color:#408080;font-style:italic}.cm-s-ipython span.cm-string{color:#BA2121}.cm-s-ipython span.cm-string-2{color:#f50}.cm-s-ipython span.cm-meta{color:#A2F}.cm-s-ipython span.cm-qualifier{color:#555}.cm-s-ipython span.cm-builtin{color:green}.cm-s-ipython span.cm-bracket{color:#997}.cm-s-ipython span.cm-tag{color:#170}.cm-s-ipython span.cm-attribute{c}.cm-s-ipython span.cm-header{f}.cm-s-ipython span.cm-quote{90}.cm-s-ipython span.cm-link{c}.cm-s-ipython span.cm-error{color:red}.cm-s-ipython span.cm-tab{background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAMCAYAAAAkuj5RAAAAAXNSR0IArs4c6QAAAGFJREFUSMft1LsRQFAQheHPowAKoACx3IgEKtaEHujDjORSgWTH/ZOdnZOcM/sgk/kFFWY0qV8foQwS4MKBCS3qR6ixBJvElOobYAtivseIE120FaowJPN75GMu8j/LfMwNjh4HUpwg4LUAAAAASUVORK5CYII=')right no-repeat}div.output_wrapper{display:-webkit-box;-webkit-box-align:stretch;display:-moz-box;-moz-box-align:stretch;display:box;box-orient:vertical;box-align:stretch;display:flex;flex-direction:column;align-items:stretch;z-index:1}div.output_scroll{height:24em;width:100%;overflow:auto;border-radius:2px;-webkit-box-shadow:inset 0 2px 8px rgba(0,0,0,.8);box-shadow:inset 0 2px 8px rgba(0,0,0,.8);display:block}div.output_collapsed{margin:0;padding:0;display:-webkit-box;-webkit-box-orient:vertical;display:-moz-box;-moz-box-orient:vertical;display:box;box-orient:vertical;box-align:stretch;display:flex;flex-direction:column;align-items:stretch}div.out_prompt_overlay{height:100%;padding:0 .4em;position:absolute;border-radius:2px}div.out_prompt_overlay:hover{-webkit-box-shadow:inset 0 0 1px #000;box-shadow:inset 0 0 1px #000;background:rgba(240,240,240,.5)}div.output_prompt{color:#8b0000}div.output_area{padding:0;page-break-inside:avoid;display:-webkit-box;-webkit-box-orient:horizontal;display:-moz-box;-moz-box-orient:horizontal;display:box;box-orient:horizontal;box-align:stretch;display:flex;flex-direction:row;align-items:stretch}div.output_area .MathJax_Display{text-align:left!important}div.output_area div.output_area img,div.output_area svg{max-width:100%;height:auto}div.output_area img.unconfined,div.output_area svg.unconfined{max-width:none}.output{display:-webkit-box;-webkit-box-orient:vertical;display:-moz-box;-moz-box-orient:vertical;display:box;box-orient:vertical;box-align:stretch;display:flex;flex-direction:column;align-items:stretch}@media (max-width:540px){div.output_area{-webkit-box-orient:vertical;-moz-box-orient:vertical;box-orient:vertical;box-align:stretch;display:flex;flex-direction:column;align-items:stretch}}div.output_area pre{margin:0;padding:0;border:0;vertical-align:baseline;background-color:transparent;border-radius:0}div.output_subarea{overflow-x:auto;padding:.4em;-webkit-box-flex:1;-moz-box-flex:1;box-flex:1;flex:1;max-width:calc(100% - 14ex)}div.output_text{text-align:left;line-height:1.21429em}div.output_stderr{background:#fdd}div.output_latex{text-align:left}div.output_javascript:empty{padding:0}.js-error{color:#8b0000}div.raw_input_container{font-family:monospace;padding-top:5px}span.raw_input_prompt{}input.raw_input{font-family:inherit;font-size:inherit;color:inherit;width:auto;vertical-align:baseline;padding:0 .25em;margin:0 .25em}input.raw_input:focus{box-shadow:none}p.p-space{margin-bottom:10px}div.output_unrecognized{padding:5px;font-weight:700;color:red}div.output_unrecognized a,div.output_unrecognized a:hover{color:inherit;text-decoration:none}.rendered_html{}.rendered_html :link,.rendered_html :visited,.rendered_html h1:first-child{margin-top:.538em}.rendered_html h2:first-child{margin-top:.636em}.rendered_html h3:first-child{margin-top:.777em}.rendered_html h4:first-child,.rendered_html h5:first-child,.rendered_html h6:first-child{margin-top:1em}.rendered_html *+ol,.rendered_html *+ul{margin-top:1em}.rendered_html *+table{margin-top:1em}.rendered_html *+p{margin-top:1em}.rendered_html *+img{margin-top:1em}div.text_cell{display:-webkit-box;-webkit-box-orient:horizontal;display:-moz-box;-moz-box-orient:horizontal;display:box;box-orient:horizontal;box-align:stretch;display:flex;flex-direction:row;align-items:stretch}@media (max-width:540px){div.text_cell>div.prompt{display:none}}div.text_cell_render{outline:0;resize:none;width:inherit;border-style:none;padding:.5em .5em .5em .4em;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box}a.anchor-link:link{text-decoration:none;padding:0 20px;visibility:hidden}h1:hover .anchor-link,h2:hover .anchor-link,h3:hover .anchor-link,h4:hover .anchor-link,h5:hover .anchor-link,h6:hover .anchor-link{visibility:visible}.text_cell.rendered .input_area{display:none}.text_cell.rendered .text_cell.unrendered .text_cell_render{display:none}.cm-header-1,.cm-header-2,.cm-header-3,.cm-header-4,.cm-header-5,.cm-header-6{font-weight:700;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}.cm-header-1{font-size:185.7%}.cm-header-2{font-size:157.1%}.cm-header-3{font-size:128.6%}.cm-header-4{font-size:110%}.cm-header-5,.cm-header-6{font-size:100%;font-style:italic}</style>
+<style type="text/css">.highlight .hll { background-color: #ffffcc }
 .highlight  { background: #f8f8f8; }
 .highlight .c { color: #408080; font-style: italic } /* Comment */
 .highlight .err { border: 1px solid #FF0000 } /* Error */
@@ -68,40 +138,40 @@
 .highlight .vc { color: #19177C } /* Name.Variable.Class */
 .highlight .vg { color: #19177C } /* Name.Variable.Global */
 .highlight .vi { color: #19177C } /* Name.Variable.Instance */
-.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */&lt;/style&gt;
-&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+.highlight .il { color: #666666 } /* Literal.Number.Integer.Long */</style>
+<div class="cell border-box-sizing code_cell rendered">
 
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h1 id="Project-Benson"&gt;Project Benson&lt;a class="anchor-link" href="#Project-Benson"&gt;¶&lt;/a&gt;&lt;/h1&gt;&lt;h2 id="Introduction"&gt;Introduction&lt;a class="anchor-link" href="#Introduction"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This is my first blog post and my first project for the 2016 Fall Cohort of Metis Data Science bootcamp.  Our assignment was to parse MTA turnstile data to determine which stations are busiest and whatever further information we could discover from the data.&lt;/p&gt;
-&lt;h2 id="MTA-Turnstile-Data-File-Formats"&gt;MTA Turnstile Data File Formats&lt;a class="anchor-link" href="#MTA-Turnstile-Data-File-Formats"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The MTA turnstile data was &lt;a href="http://web.mta.info/developers/turnstile.html"&gt;available&lt;/a&gt; in two different text formats (one before 2014, the other afterwards).&lt;/p&gt;
-&lt;p&gt;Each separate file on the website corresponds to one week's worth of turnstile data (333 total at time of project).&lt;/p&gt;
-&lt;p&gt;All data was parsed and processed with pandas (with the exception of a few weeks that could not be parsed correctly at first attempt).&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h2 id="Scraping-and-Parsing-Data"&gt;Scraping and Parsing Data&lt;a class="anchor-link" href="#Scraping-and-Parsing-Data"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;I created a script to download all of the turnstile data files and process them into a usable format.  This process was successful for all but 6 of the weekly log files (04-14-12, 04-21-12, 04-28-12, 07-07-12, 08-18-12, and 11/22/2014) which with a little bit more time to troubleshoot could also be included for future work.&lt;/p&gt;
-&lt;p&gt;Data in the files is present as cumuluative entries and exits per turnstile.  There are numerous errors within the data (random spikes and dropouts), so spikes in the data were removed and timepoints where the change in entries or exits was negative or greater than the 95%ile for that turnstile were set to 0 or the 95%ile respectively.&lt;/p&gt;
-&lt;h2 id="Looking-at-the-data..."&gt;Looking at the data...&lt;a class="anchor-link" href="#Looking-at-the-data..."&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Take an example station (e.g. 1st ave L train).  Plotting multiple weeks of data demonstrates the overall trend of greater traffic on weekdays with a dropoff on weekends. A few outliers are noted (including one Friday with zero traffic, either an error or station closure).&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Project-Benson">Project Benson<a class="anchor-link" href="#Project-Benson">¶</a></h1><h2 id="Introduction">Introduction<a class="anchor-link" href="#Introduction">¶</a></h2><p>This is my first blog post and my first project for the 2016 Fall Cohort of Metis Data Science bootcamp.  Our assignment was to parse MTA turnstile data to determine which stations are busiest and whatever further information we could discover from the data.</p>
+<h2 id="MTA-Turnstile-Data-File-Formats">MTA Turnstile Data File Formats<a class="anchor-link" href="#MTA-Turnstile-Data-File-Formats">¶</a></h2><p>The MTA turnstile data was <a href="http://web.mta.info/developers/turnstile.html">available</a> in two different text formats (one before 2014, the other afterwards).</p>
+<p>Each separate file on the website corresponds to one week's worth of turnstile data (333 total at time of project).</p>
+<p>All data was parsed and processed with pandas (with the exception of a few weeks that could not be parsed correctly at first attempt).</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Scraping-and-Parsing-Data">Scraping and Parsing Data<a class="anchor-link" href="#Scraping-and-Parsing-Data">¶</a></h2><p>I created a script to download all of the turnstile data files and process them into a usable format.  This process was successful for all but 6 of the weekly log files (04-14-12, 04-21-12, 04-28-12, 07-07-12, 08-18-12, and 11/22/2014) which with a little bit more time to troubleshoot could also be included for future work.</p>
+<p>Data in the files is present as cumuluative entries and exits per turnstile.  There are numerous errors within the data (random spikes and dropouts), so spikes in the data were removed and timepoints where the change in entries or exits was negative or greater than the 95%ile for that turnstile were set to 0 or the 95%ile respectively.</p>
+<h2 id="Looking-at-the-data...">Looking at the data...<a class="anchor-link" href="#Looking-at-the-data...">¶</a></h2><p>Take an example station (e.g. 1st ave L train).  Plotting multiple weeks of data demonstrates the overall trend of greater traffic on weekdays with a dropoff on weekends. A few outliers are noted (including one Friday with zero traffic, either an error or station closure).</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
 
-&lt;div class="output_wrapper"&gt;
-&lt;div class="output"&gt;
-&lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div class="output_png output_subarea "&gt;
-&lt;img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgUAAAFeCAYAAAAVPWykAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area"><div class="prompt"></div>
+<div class="output_png output_subarea ">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgUAAAFeCAYAAAAVPWykAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
 AAALEgAACxIB0t1+/AAAIABJREFUeJzsvXmYXEW9//+qs/Xe0z1L9n2HJCwmQEIACUEFJTCJCxDR
 C+aCcAWv8ABXL2JQQUVUFPBG/PGTexVkuxBwQeI1JIEEMQJZICH7MpmZzNrdM72frb5/9Ewnkxmy
 QAIhnNfznOf01KlT9TnVZ87nXVWfUy2klBIPDw8PDw+PjzzKB22Ah4eHh4eHx7GBJwo8PDw8PDw8
@@ -2151,28 +2221,28 @@ RZw9e5ZgMMikSZNMThe+RvLbynijX1aGVlVVxVNPPUUgEAAgMzOTSZMmUVxczPbt2ykuLv6zH3zj
 GMoXp+I0tKVLl1JbW8vKlSuJi4sjGAyyceNGKioqWL16NbGxsUyZMmXcL7dc6TzZ7XaefPJJpk+f
 Tlpa2rCOpdsci4iICDAOlg9ERERkeFQKREREBFApEBERkUtUCkRERARQKRAREZFLVApEREQEUCkQ
 ERGRS1QKREREBID/A3ylVMc9RFphAAAAAElFTkSuQmCC
-"&gt;
-&lt;/img&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;Global trends can be seen in the mean station traffic by weekday (with a minimum of traffic on Sunday and slightly more on Saturday).  Surprisingly there is a slight decrease in traffic on Monday relative to the rest of the week, although this may be related to Monday holidays (which could be explored in future work).&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+">
+</img></div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Global trends can be seen in the mean station traffic by weekday (with a minimum of traffic on Sunday and slightly more on Saturday).  Surprisingly there is a slight decrease in traffic on Monday relative to the rest of the week, although this may be related to Monday holidays (which could be explored in future work).</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
 
-&lt;div class="output_wrapper"&gt;
-&lt;div class="output"&gt;
-&lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div class="output_png output_subarea "&gt;
-&lt;img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAiwAAAGTCAYAAAALA0nUAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area"><div class="prompt"></div>
+<div class="output_png output_subarea ">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAiwAAAGTCAYAAAALA0nUAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
 AAALEgAACxIB0t1+/AAAIABJREFUeJzs3XdcU1f/B/DPTUISBGSjoIjISAAZgoo46h7VVmnVVm2t
 8/eqpbZ2u562QhXH09aqbX20ttb1VGvd46mItoiKA0WGKDJEkD1lhgS4vz8wt0YSCAqE8X2/Xr6Q
 c+69OfeQ5H7vOeeew7Asy4IQQgghpA3j6boAhBBCCCGNoYCFEEIIIW0eBSyEEEIIafMoYCGEEEJI
@@ -2698,28 +2768,28 @@ uCc+Dvj/eSrA3fksb775Jurq6hAdHQ0AcHR0RGxsLHr37o1NmzZh3759WLp0KYYOHSqcp6Ojg88/
 adOmYfv27Qrhh4ieDu+wEBG1g927d8PS0hJDhgxRdilEaoFzWIiI2tDq1auRm5uLs2fPYuXKlQqP
 pIjo6fEOCxFRG7p16xbS09Mxffp0zJ49W9nlEKkNzmEhIiIilcc7LERERKTyGFiIiIhI5TGwEBER
 kcpjYCEiIiKVx8BCREREKo+BhYiIiFTe/wEQDuluX6xyAwAAAABJRU5ErkJggg==
-"&gt;
-&lt;/img&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;Overall traffic also demonstrates a seasonal trend, with decreased traffic during summer months (Jul and Aug) and winter (Nov-Jan).  Further work could explore the relationship between these trends and likely rationales for decreased subway traffic like school vacations (i.e. summer, thanksgiving, and winter).&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+">
+</img></div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Overall traffic also demonstrates a seasonal trend, with decreased traffic during summer months (Jul and Aug) and winter (Nov-Jan).  Further work could explore the relationship between these trends and likely rationales for decreased subway traffic like school vacations (i.e. summer, thanksgiving, and winter).</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
 
-&lt;div class="output_wrapper"&gt;
-&lt;div class="output"&gt;
-&lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div class="output_png output_subarea "&gt;
-&lt;img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAiwAAAGTCAYAAAALA0nUAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area"><div class="prompt"></div>
+<div class="output_png output_subarea ">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAiwAAAGTCAYAAAALA0nUAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
 AAALEgAACxIB0t1+/AAAIABJREFUeJzs3XlcU1f6P/DPTSCEfQ0oq4CSALKJgqhd3KvWpXVpdXRc
 2u9vrGM3W2ttv51Rp63WThe1U6etU9tq56u1Vq3WVtBaVxRRFJBNQHYIhC2yZru/PzDRyCJKkhvg
 eb9e/uHd8txLIE/Oec45DMuyLAghhBBCzBiP6wAIIYQQQu6HEhZCCCGEmD1KWAghhBBi9ihhIYQQ
@@ -3320,33 +3390,33 @@ DcTHx2PChAnYvHkzVq9ejfDwcADAwoUL23y+xgTn008/RUxMzF8Lmog0gsOaiUgQHlQn0lztSOP2
 6dOno1OnTti4cSNWrlwJIyMj9O/fH6+++ip69OjR5Pjmnv/e7RMmTMDZs2exYcMGXL58GQMGDGhV
 HESkeZw4joiIiASPXUJEREQkeExYiIiISPCYsBAREZHgMWEhIiIiwWPCQkRERILHhIWIiIgEjwkL
 ERERCR4TFiIiIhI8JixEREQkeExYiIiISPD+H78WekId+SY+AAAAAElFTkSuQmCC
-"&gt;
-&lt;/img&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;Looking at the overall trend over all the data (binned by week), there is an obvious seasonal pattern to mean station traffic.  The effect of outlier events is also evident, for although some of the minima represent missing data from my processed dataset (red marks), the green line represents the complete closure of the subway system during &lt;a href="https://en.wikipedia.org/wiki/Hurricane_Sandy"&gt;Hurrican Sandy&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+">
+</img></div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Looking at the overall trend over all the data (binned by week), there is an obvious seasonal pattern to mean station traffic.  The effect of outlier events is also evident, for although some of the minima represent missing data from my processed dataset (red marks), the green line represents the complete closure of the subway system during <a href="https://en.wikipedia.org/wiki/Hurricane_Sandy">Hurrican Sandy</a>.</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
 
-&lt;div class="output_wrapper"&gt;
-&lt;div class="output"&gt;
-&lt;div class="output_area"&gt;&lt;div class="prompt output_prompt"&gt;Out[5]:&lt;/div&gt;
-&lt;div class="output_text output_subarea output_execute_result"&gt;
-&lt;pre&gt;&lt;matplotlib.lines.line2d at 0x11900df10&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div class="output_png output_subarea "&gt;
-&lt;img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAwcAAAGJCAYAAADffU/OAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area"><div class="prompt output_prompt">Out[5]:</div>
+<div class="output_text output_subarea output_execute_result">
+<pre><matplotlib.lines.line2d at 0x11900df10></pre>
+</div>
+</div>
+<div class="output_area"><div class="prompt"></div>
+<div class="output_png output_subarea ">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAwcAAAGJCAYAAADffU/OAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
 AAALEgAACxIB0t1+/AAAIABJREFUeJzsnXd4VFXex7937rQ0SCChBCMiJQlIjYCgrisWWAuwoq5d
 UJ5dRFd3V1cUbGBBfd/VVVx4ZV1RWV1cRCmKShVRg0gNGAgppM8k0/vMbef9YzI3c6dlAkmAeD7P
 4yO5594759xy7q8fhhBCQKFQKBQKhUKhUH7xqM50BygUCoVCoVAoFMrZAVUOKBQKhUKhUCgUCgCq
@@ -4672,28 +4742,28 @@ Mb7axviSXEwOqEPp9Xr861//QnFxMebPn4958+ap3SQKIMZX2xhfbWN8tY3xJX8JIterog70wQcf
 4OTJk5g3bx53NtYgxlfbGF9tY3y1jfElfzE5oA4liiJ3NtYwxlfbGF9tY3y1jfElfzE5ICIiIiIi
 AFytiIiIiIiIGjE5ICIiIiIiAEwOiIiIiIioEZMDIiIiIiICwOSAiIiIiIgaMTkgIiIiIiIATA6I
 iIiIiKjR/wdn8GvQFlTD1AAAAABJRU5ErkJggg==
-"&gt;
-&lt;/img&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h2 id="Distribution-of-total-ridership-among-different-stations"&gt;Distribution of total ridership among different stations&lt;a class="anchor-link" href="#Distribution-of-total-ridership-among-different-stations"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Looking at the histogram of traffic by station, most stations have relatively low amounts of traffic.  A few very busy stations are responsible for a large percentage of the overall traffic in the system (at least in terms of entries and exits, transfers would not be captured by this data).&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+">
+</img></div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Distribution-of-total-ridership-among-different-stations">Distribution of total ridership among different stations<a class="anchor-link" href="#Distribution-of-total-ridership-among-different-stations">¶</a></h2><p>Looking at the histogram of traffic by station, most stations have relatively low amounts of traffic.  A few very busy stations are responsible for a large percentage of the overall traffic in the system (at least in terms of entries and exits, transfers would not be captured by this data).</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
 
-&lt;div class="output_wrapper"&gt;
-&lt;div class="output"&gt;
-&lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div class="output_png output_subarea "&gt;
-&lt;img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfUAAAFtCAYAAAAeffM/AAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area"><div class="prompt"></div>
+<div class="output_png output_subarea ">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfUAAAFtCAYAAAAeffM/AAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
 AAALEgAACxIB0t1+/AAAIABJREFUeJzt3XtcVPW+//H3AGIC4qUH2q5MEjHNSis0yrxkcjaVmqam
 mVjZzksX2ZKmKYqmiJfUrGx323VO6NaOZZads3dudbetNCHL8pLaMZU0MxBEbnKb7++Pfk6CwHCb
 GVzzej4ePR4za2a+6/MZbN6zZq31XTZjjBEAALjo+Xi6AAAAUD8IdQAALIJQBwDAIgh1AAAsglAH
@@ -4906,19 +4976,19 @@ JSq7dlN2drbS0tI0ceJE9erVS59//rnsdnu1xmzXrp2ysrJ06NAhSdIbb7zh+BAD4H5sqQNe4tyl
 Hctr1qyZhg4dqnvuuUdNmzZV165dVVBQoLNnzzod09/fX4sWLdIzzzyjkpISXXXVVVq0aFF9lw6g
 mrj0KgAAFsHP7wAAWAShDgCARRDqAABYBKEOAIBFEOoAAFgEoQ4AgEUQ6gAAWAShDgCARfw/iU9D
 ftcjgXwAAAAASUVORK5CYII=
-"&gt;
-&lt;/img&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+">
+</img></div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
 
-&lt;div class="output_wrapper"&gt;
-&lt;div class="output"&gt;
-&lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div class="output_png output_subarea "&gt;
-&lt;img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfkAAAFtCAYAAAAEQROxAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area"><div class="prompt"></div>
+<div class="output_png output_subarea ">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfkAAAFtCAYAAAAEQROxAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
 AAALEgAACxIB0t1+/AAAIABJREFUeJzt3XtcFmX+//H3DYigoIhhu/kl8ZhlZWmZaR62xEPRzyOJ
 Ftau1Vrqt7WjJoqGippp66nV2myzA2ZatmxpWmhlqUSpqYWuiidKKVEBkdN9/f7wy52ACAjDYXg9
 /5F7Zu6Zz33Jg/c1M9d9jcMYYwQAAGzHraoLAAAA1iDkAQCwKUIeAACbIuQBALApQh4AAJsi5AEA
@@ -5135,28 +5205,28 @@ TEy06BMDKIyBd4BN3XbbbRo9erRGjRql3NxcSecvp48ePVpvvvmmpkyZolmzZmnIkCG655575Ovr
 q5tuukmZmZk6d+6cbr31Vo0fP15XXHGFa5+NGzdWVFSURo8erdzcXF111VWaPn26JBW4OpDP399f
 YWFhGjx4sLy9vXXVVVcVuMcPwFo8ahYAAJvicj0AADZFyAMAYFOEPAAANkXIAwBgU4Q8AAA2RcgD
 AGBThDwAADZFyAMAYFP/H63FKdIUYNlpAAAAAElFTkSuQmCC
-"&gt;
-&lt;/img&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;The stations with the greatest overall traffic include the usual suspects (Grand Central, Penn Station, Times Square), as well as additional stops along the overworked 456 line.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+">
+</img></div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The stations with the greatest overall traffic include the usual suspects (Grand Central, Penn Station, Times Square), as well as additional stops along the overworked 456 line.</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
 
-&lt;div class="output_wrapper"&gt;
-&lt;div class="output"&gt;
-&lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div class="output_subarea output_stream output_stdout output_text"&gt;
-&lt;pre&gt;Stations with most entries + exits (from 1/1/15 to 7/31/16)
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Stations with most entries + exits (from 1/1/15 to 7/31/16)
 
 
 42 ST-GRD CNTRL  4567S          1.386253e+08
@@ -5170,28 +5240,28 @@ AGBThDwAADZFyAMAYFP/H63FKdIUYNlpAAAAAElFTkSuQmCC
 MAIN ST          7              5.556376e+07
 59 ST            456NQR         4.767659e+07
 dtype: float64
-&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;Certain stations are more popular on weekends than others, and one quick way to look at this is to take the ratio of weekend to weekday traffic.  Not surprisingly, baseball stadiums have a lot of people traveling to and from their respective stations on weekends, relative to most stations in the subway system.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Certain stations are more popular on weekends than others, and one quick way to look at this is to take the ratio of weekend to weekday traffic.  Not surprisingly, baseball stadiums have a lot of people traveling to and from their respective stations on weekends, relative to most stations in the subway system.</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
 
-&lt;div class="output_wrapper"&gt;
-&lt;div class="output"&gt;
-&lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div class="output_subarea output_stream output_stdout output_text"&gt;
-&lt;pre&gt;
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
 Highest ratio of weekend to weekday traffic:
 
 
@@ -5206,28 +5276,28 @@ BOWERY           JZ     0.384571
 BEDFORD AVE      L      0.364725
 JFK HOWARD BCH   A      0.363812
 dtype: float64
-&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;On the other hand, relatively few people are traveling to Wall St and nearby stations on weekends relative to weekdays. (A few of the other stations may be closed on weekends.)&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>On the other hand, relatively few people are traveling to Wall St and nearby stations on weekends relative to weekdays. (A few of the other stations may be closed on weekends.)</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
 
-&lt;div class="output_wrapper"&gt;
-&lt;div class="output"&gt;
-&lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
-&lt;div class="output_subarea output_stream output_stdout output_text"&gt;
-&lt;pre&gt;
+<div class="output_wrapper">
+<div class="output">
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
 Lowest ratio of weekend to weekday traffic.
 
 
@@ -5242,25 +5312,25 @@ HUNTERS PT AVE   7        0.078966
 BROOKLYN BRIDGE  JZ456    0.068280
 NEWARK C         1        0.063474
 dtype: float64
-&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h2 id="Conclusion"&gt;Conclusion&lt;a class="anchor-link" href="#Conclusion"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This was just an introductory project for me for this course, and there are numerous additional directions I would take this dataset if I had more time.  I may add to this post with maps generated from the geopandas module when I have time.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion">¶</a></h2><p>This was just an introductory project for me for this course, and there are numerous additional directions I would take this dataset if I had more time.  I may add to this post with maps generated from the geopandas module when I have time.</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
 
-&lt;/div&gt;
-&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+</div>
+<script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
     var mathjaxscript = document.createElement('script');
     mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
     mathjaxscript.type = 'text/javascript';
@@ -5286,5 +5356,54 @@ dtype: float64
         "}); ";
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;
-</summary><category term="data"></category><category term="mta"></category></entry></feed>
+</script>
+
+            
+            
+            <hr/>
+        </div>
+        <section>
+        <div class="span2" style="float:right;font-size:0.9em;">
+            <h4>Published</h4>
+            <time pubdate="pubdate" datetime="2016-09-27T00:00:00-04:00">Sep 27, 2016</time>
+            <h4>Category</h4>
+            <a class="category-link" href="/categories.html#jupyter-ref">jupyter</a>
+            <h4>Tags</h4>
+            <ul class="list-of-tags tags-in-article">
+                <li><a href="/tags.html#data-ref">data
+                    <span>1</span>
+</a></li>
+                <li><a href="/tags.html#mta-ref">mta
+                    <span>1</span>
+</a></li>
+            </ul>
+        </div>
+        </section>
+</div>
+</article>
+                </div>
+                <div class="span1"></div>
+            </div>
+        </div>
+        <div id="push"></div>
+    </div>
+<footer>
+<div id="footer">
+    <ul class="footer-content">
+        <li class="elegant-power">Powered by <a href="http://getpelican.com/" title="Pelican Home Page">Pelican</a>. Theme: <a href="http://oncrashreboot.com/pelican-elegant" title="Theme Elegant Home Page">Elegant</a> by <a href="http://oncrashreboot.com" title="Talha Mansoor Home Page">Talha Mansoor</a></li>
+    </ul>
+</div>
+</footer>            <script src="http://code.jquery.com/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+        <script>
+            function validateForm(query)
+            {
+                return (query.length > 0);
+            }
+        </script>
+
+    
+    </body>
+    <!-- Theme: Elegant built for Pelican
+    License : http://oncrashreboot.com/pelican-elegant -->
+</html>
